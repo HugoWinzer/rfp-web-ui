@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Input } from "../components/ui/input";
-import { Button } from "./components/ui/button";
-import { Card, CardContent } from "./components/ui/card";
+import Input from "../components/ui/input"; // ✅ fixed path
+import Button from "../components/ui/button"; // ✅ fixed path
+import { Card, CardContent } from "../components/ui/card"; // ✅ fixed path
 import { Loader2, FileText } from "lucide-react";
 
 export default function RfpGenerator() {
